@@ -1,0 +1,8 @@
+-- Your SQL goes here
+CREATE TABLE vehicles(
+    id INT PRIMARY KEY NOT NULL,
+    brand CHARACTER VARYING (30) NOT NULL,
+    model CHARACTER VARYING (15) NOT NULL,
+    vehicle_type CHARACTER VARYING (10) NOT NULL,
+    engine CHARACTER VARYING (10) NOT NULL
+);
